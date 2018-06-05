@@ -31,6 +31,7 @@ h, h3{
 }
 #contentBar{
     background-color: antiquewhite;
+    justify-content: center;
 }
 #loginNregister{
     justify-content: center;
