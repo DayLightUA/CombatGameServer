@@ -11,7 +11,7 @@ div{
     height: 100%;
     display: grid;
 }
-h, h3{
+h3{
     display: flex;
     align-content: space-around;
 }
