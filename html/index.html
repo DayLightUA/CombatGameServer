@@ -4,39 +4,31 @@
     <meta charset="UTF-8">
     <title>CombatGame - LoginPage</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="script" href="js/index.js">
     <style>
         #page{
             background-image: url("img/loginBackground.jpg");
         }
     </style>
+
 </head>
 <body>
 <div id="page" >
     <div id="header"><img src="img/emblem.gif" alt="" id="emblem"></div>
-    <div id="center">
-        <div id="leftSideBar"><p>leftSideBar</p></div>
-        <div id="contentBar">
-            <div id="loginNregister">
-                <form id="login" action="">
-                    <label for="login" style="alignment: center"><h3>Увійти</h3></label>
-                    <div class="loginForm"><label>Логін:</label> <input type="text"></div>
-                    <div class="loginForm"><label>Пароль:</label><input type="password"></div>
-                    <button form="login" accesskey="">Увійти</button>
-                </form>
-                <br>
-                <form id="registration" action="">
-                    <label for="registration" style="alignment: center"><h3>Реєстрація</h3></label>
-                    <div class="loginForm"><label>Прізвище:</label> <input type="text"></div>
-                    <div class="loginForm"><label>Ім'я:</label> <input type="text"></div>
-                    <div class="loginForm"><label>Ел.пошта:</label> <input type="text"></div>
-                    <div class="loginForm"><label>Пароль:</label><input type="password"></div>
-                    <div class="loginForm"><label>Пароль ще раз:</label><input type="password"></div>
-                    <button form="registration" accesskey="">Зареєструватись</button>
-                </form>
-            </div>
+    <div id="menuBar">
+        <div id="userInf"></div>
+        <div id="userOpt">
+            <form id="login" action="">
+            <div id="loginBox"><label>Логін:</label> <input id="loginField" type="text"></div>
+            <div id="passwordBox"><label>Пароль:</label><input id="passwordField"type="password"></div>
+            <button id="logBtn" form="login" accesskey="">Увійти</button>
+            <button id="regBtn">Реєстрація</button>
+            </form>
         </div>
-        <div id="rightSideBar"><p>RightSideBar</p></div>
     </div>
+    <div id="leftSideBar"><p>leftSideBar</p></div>
+    <div id="centerBar">CenterBar</div>
+    <div id="rightSideBar"><p>RightSideBar</p></div>
     <div id="footer"><h1>FooterBar</h1></div>
 </div>
 </body>
